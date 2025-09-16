@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/", "status": 404, "dest": "/_404.html" },
+    { "src": "/logo.svg", "dest": "/logo.svg" },
+    { "src": "/(.*)", "status": 404 }
+  ]
+}
